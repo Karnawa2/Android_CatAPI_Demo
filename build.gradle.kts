@@ -1,0 +1,15 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+}
+
+allprojects {
+    configurations.all {
+        resolutionStrategy {
+            force("com.squareup:javapoet:1.13.0")
+            force("org.jetbrains.kotlinx:kotlinx-serialization-core:1.5.1")
+            force("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+        }
+    }
+}
