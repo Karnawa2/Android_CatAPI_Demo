@@ -8,11 +8,11 @@ plugins {
 applyDependencyManagement()
 
 android {
-    namespace = "com.example.catapi"
+    namespace = "com.example.network"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.catapi"
+        applicationId = "com.example.network"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

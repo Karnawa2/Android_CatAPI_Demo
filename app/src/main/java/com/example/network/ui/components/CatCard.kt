@@ -22,7 +22,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.catapi.R
+import com.example.network.R
 import com.example.network.domain.model.Cat
 import com.example.network.domain.model.Breed
 

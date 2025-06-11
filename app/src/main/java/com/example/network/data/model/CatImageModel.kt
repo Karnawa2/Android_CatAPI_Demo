@@ -31,6 +31,6 @@ data class Breed(
 )
 
 data class Weight(
-    val imperial: String? = null,
-    val metric: String? = null
+    val imperial: String,
+    val metric: String
 )
